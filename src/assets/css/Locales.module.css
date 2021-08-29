@@ -1,0 +1,36 @@
+.localCard {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.localCard:hover{
+  opacity: 0.8;
+}
+
+.localImage {
+  border-radius: 10px;
+  background-color: beige;
+}
+
+.localesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 30px;
+  padding: 30px;
+  justify-content: center;
+  color: black;
+}
+
+.detailsContainer{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+@media (max-width: 560px){
+  .localesGrid {
+    grid-template-columns: 100%;
+  }
+}

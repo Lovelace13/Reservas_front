@@ -1,0 +1,92 @@
+[
+  {
+    "_id": 6,
+    "name": "Hostal Villa 97",
+    "path": "/villa97.jpg",
+    "description": "sunt exercitation eu proident nulla veniam proident excepteur amet velit",
+    "status": false,
+    "created_at": "2020-09-02T12:47:14.116Z",
+    "updated_at": "2021-02-19T23:26:24.132Z"
+  },
+  {
+    "_id": 11,
+    "name": "Hostal Brussellas",
+    "path": "/brussellas.jpg",
+    "description": "sit reprehenderit Lorem sunt ex qui eiusmod do officia fugiat",
+    "status": false,
+    "created_at": "2020-09-25T00:47:57.417Z",
+    "updated_at": "2021-09-24T12:54:59.034Z"
+  },
+  {
+    "_id": 10,
+    "name": "Casa Marin",
+    "path": "/casamarin.jpg",
+    "description": "culpa aute sunt voluptate est irure elit id anim pariatur",
+    "status": true,
+    "created_at": "2020-07-17T16:30:19.095Z",
+    "updated_at": "2021-01-04T10:39:48.773Z"
+  },
+  {
+    "_id": 8,
+    "name": "Villamaria",
+    "path": "/villamaria.jpg",
+    "description": "enim labore exercitation quis amet esse occaecat anim et mollit",
+    "status": false,
+    "created_at": "2020-05-29T05:19:23.056Z",
+    "updated_at": "2021-05-04T00:46:11.748Z"
+  },
+  {
+    "_id": 4,
+    "name": "Hotel Versailles",
+    "path": "/versalles.jpg",
+    "description": "Lorem nulla proident ut culpa elit amet pariatur anim aute",
+    "status": false,
+    "created_at": "2020-08-09T16:06:07.459Z",
+    "updated_at": "2021-06-01T01:39:25.367Z"
+  },
+  {
+    "_id": 5,
+    "name": "Hotel Garzota",
+    "path": "/garzota.jpg",
+    "description": "laboris dolore amet deserunt commodo consequat fugiat ut dolor qui",
+    "status": true,
+    "created_at": "2020-12-28T03:37:52.552Z",
+    "updated_at": "2021-01-17T16:01:14.467Z"
+  },
+  {
+    "_id": 17,
+    "name": "Hostal Loja",
+    "path": "/loja.jpg",
+    "description": "ipsum magna in exercitation culpa labore incididunt consequat sint et",
+    "status": true,
+    "created_at": "2020-12-30T11:40:42.725Z",
+    "updated_at": "2021-02-07T09:30:02.995Z"
+  },
+  {
+    "_id": 15,
+    "name": "Hotel Ramada",
+    "path": "/ramada.jpg",
+    "description": "consectetur laborum officia laboris elit velit irure officia exercitation sunt",
+    "status": false,
+    "created_at": "2020-02-02T05:39:15.611Z",
+    "updated_at": "2021-08-26T09:44:03.943Z"
+  },
+  {
+    "_id": 7,
+    "name": "Hostal Perla",
+    "path": "/perla.jpg",
+    "description": "enim proident magna exercitation magna officia elit eu sit ullamco",
+    "status": true,
+    "created_at": "2020-10-09T17:49:04.814Z",
+    "updated_at": "2021-12-19T14:20:57.630Z"
+  },
+  {
+    "_id": 12,
+    "name": "Hostal Murali",
+    "path": "/murali.jpg",
+    "description": "quis dolor irure consectetur labore labore adipisicing pariatur adipisicing reprehenderit",
+    "status": true,
+    "created_at": "2020-10-21T17:11:07.948Z",
+    "updated_at": "2021-05-17T00:05:18.926Z"
+  }
+]
