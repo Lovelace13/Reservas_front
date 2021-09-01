@@ -20,11 +20,13 @@ const Login = (props) => {
    const { history, loginUser } = props;
 
    const onFinish = (values) => {
+     console.log(values);
+     console.log(history);
       setisLoading(true);
       const ac = new AbortController();
-      httpInstance(history)
-         .post('/auth/signin', values)
+      httpInstance(history).get('/auth/signin', values)
          .then((res) => {
+           console.log(res);
             loginUser(res.data);
             // eslint-disable-next-line react/prop-types
             history.push('/');

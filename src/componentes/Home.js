@@ -25,7 +25,8 @@ const Home = (props) => {
       <Layout className="layout" style={{ height: '100%' }}>
          <NavBar {...props} />
          <Content style={{ margin: '80px' }}>
-            <div>
+           <div>hola</div>
+            {/* <div>
                <Route path="/" component={Dashboard} exact />
                {usuario[0] && canView(usuario[0].role, 'view_doctor') && (
                   <Route path="/doctor/" component={Doctor} />
@@ -64,23 +65,24 @@ const Home = (props) => {
                {usuario[0] && canView(usuario[0].role, 'view_consulta') && (
                   <Route path="/consulta/:consultaId" component={ConsultaAll} />
                )}
-            </div>
+            </div> */}
          </Content>
       </Layout>
    );
 };
 
-function mapStateToProps(state) {
-   return { usuario: state.usuario };
-}
+// function mapStateToProps(state) {
+//    return { usuario: state.usuario };
+// }
 
-const mapDispatchToProps = (dispatch) => ({
-   logoutuser: (user) => {
-      dispatch({
-         type: 'LOGOUT_USER',
-         user,
-      });
-   },
-});
+// const mapDispatchToProps = (dispatch) => ({
+//    logoutuser: (user) => {
+//       dispatch({
+//          type: 'LOGOUT_USER',
+//          user,
+//       });
+//    },
+// });
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+// export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default Home;

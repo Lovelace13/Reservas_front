@@ -27,9 +27,9 @@ export const canView = (role, permiso) => {
   if (role === '1') {
      return admin.permission.indexOf(permiso) >= 0;
   } else if (role === '2') {
-     return secretary.permission.indexOf(permiso) >= 0;
+     return dueño.permission.indexOf(permiso) >= 0;
   } else if (role === '3') {
-     return doctor.permission.indexOf(permiso) >= 0;
+     return cliente.permission.indexOf(permiso) >= 0;
   } 
   return false;
 };

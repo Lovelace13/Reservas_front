@@ -1,7 +1,7 @@
 import { useState } from 'react';
-// import { LeftMenu, RightMenu } from './Menu';
+import { LeftMenu, RightMenu } from './Menu';
 import { Drawer, Button, Layout, Row, Grid } from 'antd';
-import logo from '../../assets/img/logo.svg';
+import logo from '../../assets/img/fondores.png';
 import { AppstoreOutlined } from '@ant-design/icons';
 import { connect } from 'react-redux';
 
@@ -44,7 +44,7 @@ const NavBar = (props) => {
                      style={{ width: 50, height: 50 }}
                   />
                </div>
-               <LeftMenu {...props} user={props.usuario[0]} />
+               {/* <LeftMenu {...props} user={props.usuario[0]} /> */}
             </Row>
             {md ? (
                <RightMenu

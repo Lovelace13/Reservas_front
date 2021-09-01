@@ -1,5 +1,5 @@
 import { Menu, Grid } from 'antd';
-import { canView } from '../utils/routes';
+import { canView } from '../utils/permisos';
 
 const { SubMenu, Item } = Menu;
 

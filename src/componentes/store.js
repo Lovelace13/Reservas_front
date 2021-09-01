@@ -21,6 +21,6 @@ const reducer = (state = initialState, action) => {
 };
 
 //compose permite combinar potenciadores
-const enhancer = compose(persistState('usuario', { key: 'ROLDAN_APP_RD' }));
+const enhancer = compose(persistState('usuario', { key: 'RESERVA_APP' }));
 
 export default createStore(reducer, enhancer);

@@ -2,12 +2,12 @@ import axios from 'axios';
 // eslint-disable-next-line no-undef
 const { REACT_APP_API } = process.env;
 
-const httpInstance = (history = null, logoutuser = null) => {
+const httpInstance = (history = null, logoutuser = null) => { //history = null, logoutuser = null
    var headers = {};
-
-   if (localStorage.getItem('ROLDAN_APP_RD')) {
+   if (localStorage.getItem('RESERVA_APP')) {
+     console.log("entro al localstorage")
       headers.Authorization = `Bearer ${
-         JSON.parse(localStorage.getItem('ROLDAN_APP_RD')).usuario[0]
+         JSON.parse(localStorage.getItem('RESERVA_APP')).usuario[0]
             .accessToken
       }`;
    }
@@ -32,14 +32,19 @@ const httpInstance = (history = null, logoutuser = null) => {
 
          if (error.response.status === 403 || error.response.status === 401) {
             console.log('No autorizado');
-            logoutuser(localStorage.getItem('ROLDAN_APP_RD'));
-            localStorage.removeItem('ROLDAN_APP_RD');
+            // logoutuser(localStorage.getItem('RESERVA_APP'));
+            localStorage.removeItem('RESERVA_APP');
 
-            if (history) {
-               history.push('/login/');
-            } else {
-               window.location = '/login/';
-            }
+            // if (history) {
+            //    history.push('/login/');
+            // } else {
+            //    window.location = '/login/';
+            // }
+         }
+        
+         if (error.response.status === 400 ) {
+          console.log('Recurso no encontrado');
+
          }
 
          return new Promise((resolve, reject) => {

@@ -7,6 +7,7 @@ import Login from './Login/Login'
 import store from './store';
 import { Provider } from 'react-redux';
 import ProtectedLogin from './utils/ProtectedLogin';
+import Home from './Home';
 
 //import Login from './Login';
 
@@ -15,9 +16,11 @@ const App = (props) => {
     <Provider store={store}>
       <Router>    
         <Switch>
-          <Route path="/" component={Login} exact />
+          {/* <Route path="/" component={Login} exact /> */}
+          <ProtectedLogin exact path="/login" component={Login} />
           <Route path="/home">
-            <LandingPage></LandingPage>
+            <Home></Home>
+            {/* <LandingPage></LandingPage> */}
           </Route>
           <Route path="/local/:localId">
             <Local local=":localId"></Local>
