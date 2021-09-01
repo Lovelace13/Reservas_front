@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './assets/css/index.css';
 import App from './componentes/App';
 import reportWebVitals from './reportWebVitals';
+import 'antd/dist/antd.css';
 
 
 

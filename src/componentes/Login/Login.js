@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Form, Input, Button, Row, Card } from 'antd';
-import logo from '../assets/img/logo.svg';
+import logo from '../../assets/img/logo.svg';
 import httpInstance from '../helpers/http.service';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import { connect } from 'react-redux';
